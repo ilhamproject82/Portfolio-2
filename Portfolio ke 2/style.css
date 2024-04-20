@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 1000px;
+}
+
+.navbar {
+    display: flex;
+    height: 80px;
+    background-color: transparent;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navbar .logo {
+    font-size: 1.3em;
+    color: white;
+    color: black;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    width: 40%;
+    justify-content: space-around;
+}
+
+.navbar ul li a {
+    font-size: 0.88em;
+    text-decoration: none;
+    color: black;
+}
+
+.content-box {
+    margin-left: 230px;
+    margin-top: 200px;
+}
+
+.box-home {
+    max-width: 500px;
+    letter-spacing: 1px;
+}
+
+.img-bg {
+    text-align: center;
+    margin-top: 150px;
+}
+
+
+.container-layanan {
+    display: flex;
+    max-width: 600px;
+    margin: 100px auto;
+    box-sizing: border-box;
+    font-size: 10px;
+}
+
+.layanan-1 {
+    background-color: white;
+    padding: 10px;
+    font-size: 1.5em;
+    margin-right: 10px;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
+}
+
+.layanan-2 {
+    background-color: white;
+    padding: 10px;
+    font-size: 1.5em;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
+}
+
+.layanan-3 {
+    background-color: white;
+    padding: 10px;
+    font-size: 1.5em;
+    margin-left: 10px;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
+}
